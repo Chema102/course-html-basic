@@ -1,0 +1,87 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    background: #CAC2AD;
+    text-align: center;
+}
+.content * {
+    font-family: Roboto;
+    color: #221F15;
+}
+
+.content hr {
+    border-top: 1px solid #221F15;
+    border-bottom: 1px solid #221F15;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px;
+}
+
+.content .part {
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.content .part {
+    font-size: 20pt
+}
+
+.content .part h2 {
+    margin: 8px 0 30px;
+}
+
+.content .part p {
+    margin: 0 
+}
+
+.favorite-link {
+    font-size: 24pt;
+    height: 40px;
+}
+
+.favorite-link p {
+    line-height: 40px;
+}
+
+.favorite-link img {
+    width: 30px;
+}
+
+.like p {
+    margin: 10px 0;
+}
+
+.like:first-child .type {
+    margin-top: 0
+}
+
+.like > * {
+    position: relative;
+    float: left;
+}
+
+.like .type {
+    width: 50%;
+}
+
+.like .type:after {
+    content: ':'
+}
+
+.like .value {
+    width: 50%;
+}
+
+.favorite-color {
+    color: #3b9116;
+}
+
+footer {
+    background: rgba(0,0,0,.05);
+    padding-top: 10px;
+}
+
+.social-link img {
+    width: 50px
+}
